@@ -1,0 +1,51 @@
+2020-09-24 16:31:51,783 INFO com.sapient.training.app.SpringDataJpaAppApplication [restartedMain] Starting SpringDataJpaAppApplication on WKWIN6090326 with PID 4384 (C:\Users\ragtejas\Downloads\Sapient_training_projects\spring-data-jpa-app\target\classes started by ragtejas in C:\Users\ragtejas\Downloads\Sapient_training_projects\spring-data-jpa-app)
+2020-09-24 16:31:51,788 DEBUG com.sapient.training.app.SpringDataJpaAppApplication [restartedMain] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-24 16:31:51,789 INFO com.sapient.training.app.SpringDataJpaAppApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-24 16:31:51,985 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-24 16:31:52,010 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-24 16:31:53,197 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-24 16:31:53,366 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 146ms. Found 1 JPA repository interfaces.
+2020-09-24 16:31:56,117 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-09-24 16:31:56,147 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-24 16:31:56,148 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-09-24 16:31:56,148 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 16:31:56,153 INFO org.apache.catalina.core.AprLifecycleListener [restartedMain] Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-09-24 16:31:56,154 INFO org.apache.catalina.core.AprLifecycleListener [restartedMain] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-09-24 16:31:56,154 INFO org.apache.catalina.core.AprLifecycleListener [restartedMain] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-09-24 16:31:56,180 INFO org.apache.catalina.core.AprLifecycleListener [restartedMain] OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-09-24 16:31:56,393 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-09-24 16:31:56,394 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4383 ms
+2020-09-24 16:31:57,661 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-24 16:31:57,777 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-24 16:31:58,134 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-24 16:31:58,380 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-24 16:32:00,216 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-24 16:32:00,284 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-09-24 16:32:01,969 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-24 16:32:01,982 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-24 16:32:02,018 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-09-24 16:32:03,373 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-24 16:32:03,769 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 16:32:04,893 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-24 16:32:04,943 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-09-24 16:32:05,026 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-24 16:32:05,065 INFO com.sapient.training.app.SpringDataJpaAppApplication [restartedMain] Started SpringDataJpaAppApplication in 13.905 seconds (JVM running for 15.089)
+2020-09-24 16:35:26,973 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-24 16:35:26,973 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-09-24 16:35:26,999 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Completed initialization in 26 ms
+2020-09-24 16:35:27,261 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-1] Enter: com.sapient.training.service.EmployeeServiceImpl.save() with argument[s] = [Employee(id=null, name=Rohit, job=Developer, hiredate=Thu Oct 15 05:30:00 IST 2015, salary=550000.0)]
+2020-09-24 16:35:27,358 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-1] Exit: com.sapient.training.service.EmployeeServiceImpl.save() with result = Employee(id=1, name=Rohit, job=Developer, hiredate=Thu Oct 15 05:30:00 IST 2015, salary=550000.0)
+2020-09-24 16:52:19,035 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-4] Enter: com.sapient.training.service.EmployeeServiceImpl.save() with argument[s] = [Employee(id=null, name=Tejaswi, job=Developer, hiredate=Thu Oct 15 05:30:00 IST 2020, salary=100000.0)]
+2020-09-24 16:52:19,038 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-4] Exit: com.sapient.training.service.EmployeeServiceImpl.save() with result = Employee(id=2, name=Tejaswi, job=Developer, hiredate=Thu Oct 15 05:30:00 IST 2020, salary=100000.0)
+2020-09-24 17:14:32,761 WARN org.springframework.web.servlet.PageNotFound [http-nio-8081-exec-8] Request method 'POST' not supported
+2020-09-24 17:14:32,765 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8081-exec-8] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-09-24 17:15:24,481 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-2] Enter: com.sapient.training.service.EmployeeServiceImpl.findByJobAndSalaryGreaterThan() with argument[s] = [Developer, 100000.0]
+2020-09-24 17:15:24,523 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-2] Exit: com.sapient.training.service.EmployeeServiceImpl.findByJobAndSalaryGreaterThan() with result = [Employee(id=1, name=Rohit, job=Developer, hiredate=2015-10-15, salary=550000.0)]
+2020-09-24 17:15:42,704 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-5] Enter: com.sapient.training.service.EmployeeServiceImpl.findByJobAndSalaryGreaterThan() with argument[s] = [Developer, 100000.0]
+2020-09-24 17:15:42,708 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-5] Exit: com.sapient.training.service.EmployeeServiceImpl.findByJobAndSalaryGreaterThan() with result = [Employee(id=1, name=Rohit, job=Developer, hiredate=2015-10-15, salary=550000.0)]
+2020-09-24 17:16:35,893 WARN org.springframework.web.servlet.PageNotFound [http-nio-8081-exec-6] Request method 'POST' not supported
+2020-09-24 17:16:35,893 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8081-exec-6] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-09-24 17:16:43,027 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-10] Enter: com.sapient.training.service.EmployeeServiceImpl.findByJobAndSalaryGreaterThan() with argument[s] = [Developer, 100000.0]
+2020-09-24 17:16:43,029 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-10] Exit: com.sapient.training.service.EmployeeServiceImpl.findByJobAndSalaryGreaterThan() with result = [Employee(id=1, name=Rohit, job=Developer, hiredate=2015-10-15, salary=550000.0)]
+2020-09-24 17:17:11,513 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-9] Enter: com.sapient.training.service.EmployeeServiceImpl.findByJobAndSalary() with argument[s] = [Developer, 100000.0]
+2020-09-24 17:17:11,545 DEBUG com.sapient.training.aspect.LoggingAspect [http-nio-8081-exec-9] Exit: com.sapient.training.service.EmployeeServiceImpl.findByJobAndSalary() with result = [Employee(id=2, name=Tejaswi, job=Developer, hiredate=2020-10-15, salary=100000.0)]
